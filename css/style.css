@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: 'Mate SC', serif;
+    font-size: large;
+}
+
+.social{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hover{
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.hover li{
+    padding-top: 7px;
+}
+
+#instagram{
+    background-color: rgba(255, 40, 94, 0.185);
+}
+
+#whatsapp{
+    background-color: rgba(21, 255, 0, 0.199);
+}
+
+header img, header nav{
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+.social {
+    padding: 20px 2px 0px 0px;
+    float: right;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 23px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hover {
+    transition: 0.3;
+    opacity: 1;
+}
+
+.hover:hover {
+    transition: 0.3;
+    opacity: 0.5;
+}
+
+.banner img{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.texto{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    padding-right: 25px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.texto p{
+    text-indent: 20px;
+}
+
+.sobre{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.sobre h2{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sobre img{
+    width: 47%;
+    display: inline-block;
+}
+
+.servicos{
+    background-image: linear-gradient(to bottom, #7a858173, #7A8581);
+    padding: 50px 0;
+}
+
+.servico{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.servico img{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.438);
+    width: 100%;
+   /* border: 2px solid #69726f;*/
+}
+
+.titulo{
+    padding-top: 14px;
+}
+.titulo, .servicos h2{
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.servicos h2, .depoimentos h2{
+    font-size: 27px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.depoimentos h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.item{
+    display: inline-block;
+    width: 31%;
+    padding: 1%;
+    text-align: left;
+}
+
+.item img{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.item .cliente{
+    font-weight: 500;
+    padding-top: 0px;
+    margin: 5px 10px;
+}
+
+.item p{
+    margin-bottom: 20px;
+}
+
+.depoimentos{
+    margin: 70px;
+}
+
+footer{
+    height: 300px;
+    background-image: linear-gradient(to bottom, #362b3af1, #130d14);
+    color: #A8A8A8;
+    padding: 50px;
+    font-size: 13px;
+}
+
+.item h2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+footer h2{
+    color: white;
+}
+
+footer .item{
+    width: 300px;
+    display: inline-block;      
+    margin-right: 6%;
+}
+
+footer input, footer textarea{
+    width: 250px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #CFCFCF;
+    font-size: 13px;
+    color: #CFCFCF;
+}
+
+footer input[type="submit"]{
+    border: 2px solid #CFCFCF;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer input[type="submit"]:hover{
+    background-color: rgba(128, 128, 128, 0.103);
+    box-shadow: 2px 2px 2px #0000002a;
+}
+
+footer ul li a{
+    color: #CFCFCF;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: white;
+}
+
+footer ul li{
+    text-align: right;
+    padding: 15px;
+    font-size: 13px;
+}
+
