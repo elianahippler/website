@@ -17,6 +17,10 @@ header{
     font-size: large;
 }
 
+header{
+    height: 145px;
+}
+
 .social{
     font-family: Arial, Helvetica, sans-serif;
 }
