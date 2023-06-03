@@ -260,9 +260,30 @@ footer ul li{
     height: 240px;
     text-align: left;
     font-size: 40px;
-    border-left: 5px solid red;
-    line-height: 50px;
-    font-weight: bold;
+    border-left: 4px solid #4f2579;
+    line-height: 53px;
+    font-weight: 600;
     padding: 0 38px;
     padding-top: 20px;
+    float: left;
+    clear: both;
 }
+
+.info{
+    width: 950px;
+    text-indent: 50px;
+    display: inline-block;
+    text-align: justify;
+}
+
+#imgg{
+    width: 950px;
+    padding-top: 70px;
+}
+
+.bgheader{
+   /* background: url(../img/bgsobre.png) 50% -112px / cover no-repeat fixed;*/
+    height: 200px;
+    margin: 20px;   
+} 
+
