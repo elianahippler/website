@@ -282,8 +282,14 @@ footer ul li{
 }
 
 .bgheader{
-   /* background: url(../img/bgsobre.png) 50% -112px / cover no-repeat fixed;*/
-    height: 200px;
-    margin: 20px;   
+    background: url(../imagens/sobre/01.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 340px;
+    width: 100%;   
 } 
+
+.sobre{
+    padding-top: 70px;
+}
 
