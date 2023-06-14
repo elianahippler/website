@@ -141,7 +141,7 @@ a:hover {
 .titulo{
     padding-top: 14px;
 }
-.titulo, .servicos h2{
+.titulo, .servicos h2, .servicoss h2{
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -149,7 +149,7 @@ a:hover {
     text-align: center;
 }
 
-.servicos h2, .depoimentos h2{
+.servicos h2, .depoimentos h2, .servicoss h2{
     font-size: 27px;
     margin-bottom: 25px;
     text-transform: uppercase;
