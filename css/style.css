@@ -302,3 +302,22 @@ footer ul li{
     text-align: left;
     text-transform: uppercase;
 }
+
+ul.sociais li{
+    display: inline-block;
+    width: 20px;
+}
+
+ul.sociais li a{
+    color: #000;
+}
+
+.contato input{
+    width: 100%;
+    max-width: 350px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(146, 146, 146);
+}
