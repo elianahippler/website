@@ -301,6 +301,10 @@ footer ul li{
 .div50 h2{
     text-align: left;
     text-transform: uppercase;
+    padding-bottom: 2px;
+}
+.div50 p{
+    padding-bottom: 23px;
 }
 
 ul.sociais li{
